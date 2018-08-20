@@ -1,0 +1,4 @@
+{
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact_normal": true,
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact_unexpected_input": true
+}

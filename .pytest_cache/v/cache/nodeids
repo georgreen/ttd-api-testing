@@ -1,3 +1,6 @@
 [
-  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact"
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact_normal",
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact_unexpected_boundary",
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact_unexpected_edgecase",
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact_unexpected_input"
 ]
