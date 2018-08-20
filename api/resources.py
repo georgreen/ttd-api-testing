@@ -12,8 +12,7 @@ class PhoneBookResource(Resource):
         """
         user_name = request.args.get('user_name')
 
-
-        if type(user_name) != str:
+        if not user_name.isalnum():
             return {"message": "Bad data"}, 400
 
         return {"message": "hello from phone book"}, 200

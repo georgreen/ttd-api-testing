@@ -10,7 +10,7 @@ manager = Manager(app)
 
 @manager.command
 def test():
-    pytest.main(['-x', '-v', '-s', 'tests'])
+    pytest.main(['-v', '-s', 'tests'])
 
 if __name__ == "__main__":
     manager.run()
