@@ -1,0 +1,3 @@
+[
+  "tests/test_baseTestCase.py::PhoneBookTestCase::test_get_contact"
+]
